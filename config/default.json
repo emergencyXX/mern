@@ -1,0 +1,5 @@
+{
+  "port": 5000,
+  "jwtSecret": "I become a MERN",
+  "mongoUri": "mongodb+srv://emergencyXX:1q2w3e4r@cluster0.0jn2q.mongodb.net/app?retryWrites=true&w=majority"
+}
