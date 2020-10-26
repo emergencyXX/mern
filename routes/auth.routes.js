@@ -16,7 +16,6 @@ router.post(
 
         const {email, password} = req.body
         try {
-            debugger
             const errors = validationResult(req)
 
             if (!errors.isEmpty()) {
