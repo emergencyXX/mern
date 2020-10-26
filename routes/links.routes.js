@@ -62,7 +62,10 @@ router.get(
     [],
     async (req, res) => {
         try {
-            const link = await Link.findById({owner: req.params.id})
+
+            const link = await Link.findById(req.params.id)
+            console.log(link)
+
             res.json(link)
         } catch (e) {
             res.status(500).json({message: 'Something went wrong....'})

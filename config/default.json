@@ -1,6 +1,6 @@
 {
   "port": 5000,
   "jwtSecret": "I become a MERN",
-  "mongoUri": "mongodb+srv://mern:1q2w3e4r@cluster0.i6duk.mongodb.net/mern?retryWrites=true&w=majority",
+  "mongoUri": "mongodb+srv://emergencyXX:1q2w3e4r@cluster0.0jn2q.mongodb.net/app?retryWrites=true&w=majority",
   "baseUrl": "http://localhost:5000"
 }
